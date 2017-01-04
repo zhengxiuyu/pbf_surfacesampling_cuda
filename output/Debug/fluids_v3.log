@@ -1,0 +1,75 @@
+﻿Build started 2017/1/3 22:10:39.
+     1>Project "D:\SPH_sampling_surface_v1\fluids_v3.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "D:\SPH_sampling_surface_v1\\output\Debug\SPH_sampling.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SPH_sampling_surface_v1\SPH_sampling.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\local\boost_1_61_0\lib32-msvc-10.0" /LIBPATH:"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" tinyXML_2010.lib opengl32.lib cudart.lib cutil32.lib "boost_random-vc100-mt-1_61.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcpmtd0.lib /NODEFAULTLIB:libcpmtd.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"D:\SPH_sampling_surface_v1\\output\Debug\SPH_sampling.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SPH_sampling_surface_v1\SPH_sampling.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SPH_sampling_surface_v1\SPH_sampling.lib" /MACHINE:X86 Debug\fluid_system_host.obj
+         Debug\fluid_system_kern.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\app_perf.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\app_util.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\glew.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\xml_settings.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\fluid_system.obj
+         D:\SPH_sampling_surface_v1\\output\Debug\main.obj
+     1>app_perf.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         tinyXML_2010.lib(tinyxml.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>app_perf.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewPrimitiveRestartIndex imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewDrawElementsInstanced imported
+     1>app_util.obj : warning LNK4049: locally defined symbol ___glewPatchParameteri imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewBufferDataARB imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewBindBufferARB imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewGenBuffersARB imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewPointParameterfARB imported
+     1>fluid_system.obj : warning LNK4049: locally defined symbol ___glewPointParameterfvARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewDebugMessageControlARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewDebugMessageCallbackARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___wglewCreateContextAttribsARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___wglewChoosePixelFormatARB imported
+     1>main.obj : warning LNK4049: locally defined symbol _glewInit@0 imported
+     1>main.obj : warning LNK4049: locally defined symbol ___wglewSwapIntervalEXT imported
+     1>tinyXML_2010.lib(tinyxml.obj) : warning LNK4204: 'D:\SPH_sampling_surface_v1\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>tinyXML_2010.lib(tinyxmlparser.obj) : warning LNK4204: 'D:\SPH_sampling_surface_v1\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>tinyXML_2010.lib(tinyxmlerror.obj) : warning LNK4204: 'D:\SPH_sampling_surface_v1\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         fluids_v3.vcxproj -> D:\SPH_sampling_surface_v1\SPH_sampling.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SPH_sampling_surface_v1\SPH_sampling.exe;#1" /manifest D:\SPH_sampling_surface_v1\\output\Debug\SPH_sampling.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "D:\SPH_sampling_surface_v1\\output\Debug\SPH_sampling.unsuccessfulbuild".
+         Touching "D:\SPH_sampling_surface_v1\\output\Debug\SPH_sampling.lastbuildstate".
+     1>Done Building Project "D:\SPH_sampling_surface_v1\fluids_v3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.39
